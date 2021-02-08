@@ -9,13 +9,14 @@ p {
 
 h1 {
   color: crimson;
-  font: small-caps bold 24px/1 sans-serif;}
+  font: small-caps bold 40px/1 sans-serif;}
 
 h2 {
   color: aqua;
   font: small-caps bold 24px/1 sans-serif;}
 
 li {
-  background-color: paleturquoise;}
+  background-color: paleturquoise;
+  font: small-caps bold 24px/1 sans-serif;}
 
 

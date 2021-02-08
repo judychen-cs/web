@@ -4,6 +4,15 @@ body {
 
 p {
   background-color: salmon;
-  color: navy;}
+  color: navy;
+  border: solid deeppink;}
+
+h1 {
+  color: crimson;
+  font: small-caps bold 24px/1 sans-serif;}
+
+h2 {
+  color: rebeccapurple;
+  font: small-caps bold 24px/1 sans-serif;}
 
 

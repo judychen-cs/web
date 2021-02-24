@@ -1,6 +1,6 @@
 body {
   background-color: sandybrown;
-  border: medium dashed green;}
+}
 
 p {
   background-color: salmon;
@@ -12,11 +12,19 @@ h1 {
   font: small-caps bold 40px/1 sans-serif;}
 
 h2 {
-  color: aqua;
+  color: crimson;
   font: small-caps bold 24px/1 sans-serif;}
 
 li {
   background-color: paleturquoise;
   font: small-caps bold 24px/1 sans-serif;}
+
+.navigationbar {
+  background-color: crimson;
+  font-family: "Lucida Console", "Courier New", monospace;}
+
+.bodyparas {
+  background-color: crimson;
+  font-family: "Lucida Console", "Courier New", monospace;}
 
 

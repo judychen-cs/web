@@ -1,3 +1,9 @@
+body {
+  background-color: #D9E4F6
+}
 
-
-
+.navigationbar {
+  background-color: #ACD3DD;
+  font-size: 50px;
+  font-family: "Copperplate", Fantasy;
+}

@@ -10,6 +10,13 @@ nav {
   background-color: #ACD3DD;
   font-size: 30px;
   font-family: "Papyrus", Fantasy;
+  color: #005266
+}
+
+h3 {
+  color: #ff0066;
+  font-size: 28px;
+  font-family: "Papyrus", Fantasy;
 }
 
 .bodyparasadenine {

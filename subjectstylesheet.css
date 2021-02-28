@@ -13,33 +13,40 @@ nav {
   color: #005266
 }
 
+h1 {
+  color: #cc0066;
+  font-size: 30px;
+  font-family: "Papyrus", Fantasy;
+  text-align: center;
+}
+
 h3 {
   color: #ff0066;
-  font-size: 28px;
+  font-size: 25px;
   font-family: "Papyrus", Fantasy;
 }
 
 .bodyparasadenine {
-  font-size: 25px;
+  font-size: 20px;
   font-family: "Optima", sans-serif;
 }
 
 .bodyparasthymine {
-  font-size: 25px;
+  font-size: 20px;
   font-family: "Optima", sans-serif;
 }
 
 .bodyparascytosine {
-  font-size: 25px;
+  font-size: 20px;
   font-family: "Optima", sans-serif;
 }
 
 .bodyparasguanine {
-  font-size: 25px;
+  font-size: 20px;
   font-family: "Optima", sans-serif;
 }
 
 .bodyparashome {
-  font-size: 25px;
+  font-size: 20px;
   font-family: "Optima", sans-serif;
 }

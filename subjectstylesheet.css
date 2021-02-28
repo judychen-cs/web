@@ -26,6 +26,11 @@ h3 {
   font-family: "Papyrus", Fantasy;
 }
 
+img {
+  height: 200px;
+  width: 50%;
+}
+
 .bodyparasadenine {
   font-size: 20px;
   font-family: "Optima", sans-serif;

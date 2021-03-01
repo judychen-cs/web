@@ -15,8 +15,8 @@ nav {
 
 .navigationbar ul {
   list-style: none;
-  display: inline-block;
-  
+  padding-right: 30px;
+	float: right;
 }
 
 img {

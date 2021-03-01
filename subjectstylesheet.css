@@ -6,17 +6,25 @@ body {
   background-color: #D9E4F6
 }
 
-.navigationbar ul {
-  overflow: hidden;
-  list-style: none;
-  background-color:#ACD3DD;
+#menu li a {
+	font-size: 20px;
+	position: static;
+	padding: 0px 20px;
+	color: #FFE77AFF
+
 }
 
 nav {
-  background-color: #ACD3DD;
+	background-color: #ACD3DD;
   font-size: 30px;
   font-family: "Papyrus", Fantasy;
   color: #005266;
+	float: right;
+}
+
+#menu li {
+	display: inline-block;
+	float: right;
 }
 
 img {

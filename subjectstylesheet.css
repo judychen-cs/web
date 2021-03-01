@@ -6,14 +6,6 @@ body {
   background-color: #D9E4F6
 }
 
-#menu li a {
-	font-size: 20px;
-	position: static;
-	padding: 0px 20px;
-	color: #FFE77AFF
-
-}
-
 nav {
 	background-color: #ACD3DD;
   font-size: 30px;

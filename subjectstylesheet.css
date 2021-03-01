@@ -7,21 +7,21 @@ body {
 }
 
 nav {
-	background-color: #ACD3DD;
-	font-size: 30px;
-	font-family: "Papyrus", Fantasy;
-	color: #005266;
-	float: left;
+  background-color: #ACD3DD;
+  font-size: 20px;
+  font-family: "Papyrus", Fantasy;
+  color: #005266;
+  float: left;
 }
 
 #menu li {
-	list-style: none;
-	display: inline-block;
-	float: left;
+  list-style: none;
+  display: inline-block;
+  float: left;
 }
 
 li a {
-	display: block;
+  display: block;
 }
 
 img {

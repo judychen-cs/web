@@ -16,7 +16,7 @@ nav {
 .navigationbar ul {
   background-color: #ACD3DD;
 	list-style: none;
-	float: right;
+	display: inline-block;
 }
 
 img {

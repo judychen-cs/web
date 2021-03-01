@@ -16,7 +16,7 @@ nav {
 
 #menu li {
 	display: inline-block;
-	float: right;
+	float: left;
 }
 
 img {

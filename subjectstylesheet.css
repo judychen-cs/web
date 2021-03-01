@@ -6,17 +6,16 @@ body {
   background-color: #D9E4F6
 }
 
-nav {
+.navigationbar {
+  overflow: hidden;
+  background-color:#ACD3DD;
+}
+
+.navigationbar a {
   background-color: #ACD3DD;
   font-size: 30px;
   font-family: "Papyrus", Fantasy;
-  color: #005266
-}
-
-.navigationbar ul {
-  background-color: #ACD3DD;
-	list-style: none;
-	display: inline-block;
+  color: #005266;
 }
 
 img {

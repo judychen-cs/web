@@ -14,8 +14,8 @@ nav {
 }
 
 .navigationbar ul {
-  list-style: none;
-  padding-right: 30px;
+  background-color: #ACD3DD;
+	list-style: none;
 	float: right;
 }
 

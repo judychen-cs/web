@@ -20,6 +20,10 @@ nav {
 	float: left;
 }
 
+li a {
+	display: block;
+}
+
 img {
   border: 5px solid #cc0066;
   height: 350px;

@@ -1,0 +1,49 @@
+ul {
+ list-style-type: circle;
+}
+
+li {
+ font-family: monaco, Palatino, serif;
+ margin-right: 50px;
+}
+
+body {
+ border: double;
+ border-color: white;
+ background-color: #DDBCF2;
+ text-align: center;
+ color: black;
+}
+
+h1 {
+  font-family: lucida handwriting, trattatello, fantasy, serif;
+  margin-top: 5px;
+  margin-right: 50px;
+}
+
+h3 {
+  font-family: lucida handwriting, trattatello, fantasy, serif;
+  font-weight: bold;
+  margin-right: 50px;
+}
+
+h2 {
+ font-family: lucida handwriting, trattatello, fantasy, serif;
+ text-decoration: underline;
+ margin-right: 50px;
+}
+
+p {
+ font-family: monaco, Palatino, serif;
+ margin-right: 50px;
+}
+
+a {
+  margin-bottom: 10px;
+}
+
+img {
+  border: solid;
+  border-color: #FFB6C1;
+  border-width: 5px;
+}

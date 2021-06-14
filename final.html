@@ -1,0 +1,121 @@
+<html>
+
+  <head>
+	  <title>Anything Really!</title>
+	  <link href="pytp.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <h1>Zooming Out Of A Virtual Escape Room!</h1>
+    <h2>Judy Chen and Esther Kim, Period 5</h2>
+    <hr>
+
+	
+	<h3>Project Description</h3>
+	<p>
+	For our project, we made a virtual escape room. It is a text based adventure, 
+	where the player interacts with the environment through text. The game takes 
+	place in an abandoned airport and you can move around between different rooms. 
+	The main goal, as it is with typical escape rooms, is to escape from the 
+	abandoned airport. We also have included a function that will save the player's 
+	story as a text file on their computer if they choose to do so. In addition, 
+	if the player would like to try making their own scenario, they could insert 
+	some text and a escape room scenario would be created.
+	</p>
+	
+	<h3>Project Snapshots</h3>
+	<img src = "work2/start.png" height = "300px">
+	<img src = "work2/file.png" height = "300px">
+	<img src = "work2/scenario.png" height = "200px">
+
+
+	<h3>Instructions</h3>
+	<p>
+	Type in "open_abandoned_airport()" in the shell to start the game.
+	The game takes place in the shell, where a scene will be described and then 
+	a question will be asked of the player. The player will be given two answer 
+	choices that they can choose from. The player will type in an answer and press 
+	enter. Based on which answer selection was chosen, a new scenario will be 
+	described. The goal of the escape room is to find the 3 letter code that will 
+	unlock the door of the airport. There are hints throughout the game, so pay 
+	attention to the scenes described. Chose answers carefully as they do influence 
+	the story. To save the story that the player has played through, type in 
+	"full()" in the shell and a file titled "python_complete_story.txt" with the 
+	story will be saved in the same directory where the python code is saved in. 
+	To try generating a unique scenario, the player can insert a piece of text into 
+	the function, scenario(text), and a scenario will be created.
+	</p>
+      
+	  
+	<h3>How it works</h3>
+	<p>
+	The whole list of scenarios and mapping of answers to scenarios was planned 
+	out. The scenes were split up into strings and placed into different functions. 
+	After the description of the scenario was printed, the input function was used to receive 
+	info from the player. The input was set equal to a variable and based on what 
+	response was given, it led to a new function with a new scenario and a new 
+	question asked by using the input function. If an input that was not one of 
+	the answer choices is given, a string prompting the player to input a valid 
+	answer is printed and the scenario is given again by recursion. There are certain 
+	choices that can lead to a game over, so we have implemented a respawn function that 
+	leads to a certain base scenario, a sort of checkpoint, so that the player 
+	does not have to go through the introduction again. For the full() function, where 
+	the player is able to save a text file with the adventure they went through, we 
+	made a global variable that is used in almost all the functions. It is an empty 
+	string and each time a function is run, the scenario text is added to the string. 
+	To edit the variable in the function, we declared that it was a global variable 
+	in the function. When the full() function is run in the shell, a file is created 
+	and the global variable is written into the file and then saved on the computer. 
+	For the scenario, we made a dictionary of words by setting the key equal to a word 
+	and the values equal to a word after the key. This was done to our abandoned 
+	airport escape room and then a whatever text the player adds in. Then a random 
+	key is selected and a random value that is related to the key. These words are 
+	added into a string and the value is used as a new key. This continues on until 
+	a word with a question mark is reached. This is supposed to resemble our game, 
+	where a scene would be described and a question is asked at the end. Then, the 
+	string is printed for the player to see.
+	</p>
+      
+      
+	<h3>Files</h3>
+	<ul>
+	  <li>final.html: This website file.</li>
+	  <li>pytp.css: This is the stylesheet for this website.</li>
+	  <li>TAoTS.txt: A text file of the book The Adventures of Tom Sawyer by Mark Twain. 
+	  This is used to test and demonstrate how our scenario function works.</li>
+	  <li>CompSci Story File.txt: A text file of our scenarios. This is used for the 
+	  scenario function, so that a mix of our the escape room and some text will 
+	  produce a new scenario.</li>
+	  <li>adventure.py: This is where we wrote the python program for our game.</li>
+	</ul>
+      
+      
+	<h3>Resources</h3>
+	<ul>
+	  <li>How to Write a File in Python: <a href = "https://www.w3schools.com/python/python_file_write.asp?fbclid=IwAR2O-C7_qsXmkMripNrPKEBqFQAPklNOCaShVsLirBwxF8j-QAU_2qpx_AM">https://www.w3schools.com/python/python_file_write.asp?fbclid=IwAR2O-C7_qsXmkMripNrPKEBqFQAPklNOCaShVsLirBwxF8j-QAU_2qpx_AM</a>
+		<ul>We used this website to learn how we could take a string in python and create a file with it. We use this to convert the story the player goes 
+		through into a text file, so that if the player chooses to do so, they may save it.</ul>
+	  </li>
+	  <li>Global Variables: <a href = "https://www.programiz.com/python-programming/global-keyword">https://www.programiz.com/python-programming/global-keyword</a>
+		<ul>We used this website to learn how to use a global variable inside a function so that the function could modify it.</ul>
+	  </li>
+	</ul>
+      
+      
+	<h3>Bugs, Errors, and Things to be Aware of</h3>
+	<ul>
+	  <li>
+	    When answering the questions, you must answer using the answer choices provided. 
+		The answers are case sensitive, so you are advised to write answers exactly as 
+		they are shown.
+	  </li>
+	  <li>
+		When using the scenario() function, the scenario may not making sense as the two 
+		text being combined may not fuse nicely.
+	  </li>
+	</ul>
+      
+    
+
+  </body>
+</html>
